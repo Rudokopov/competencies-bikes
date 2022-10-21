@@ -1,0 +1,39 @@
+.merks {
+  margin: 120px auto 60px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: calc(560px + (650 - 560) * ((100vw - 1200px) / (1440 - 1200))) calc(433px + (470 - 433) * ((100vw - 1200px) / (1440 - 1200)));
+  column-gap: calc(27px + (80 - 27) * ((100vw - 1024px) / (1440 - 1024)));
+}
+
+@media (min-width: 1440px) {
+  .merks {
+    column-gap: 80px;
+    grid-template-columns: 650px 470px;
+  }  
+}
+
+@media (max-width: 1200px) {
+  .merks {
+    grid-template-columns: calc(504px + (560 - 504) * ((100vw - 1024px) / (1200 - 1024))) 433px;
+  }  
+}
+
+@media (max-width: 1024px) {
+  .merks {
+    grid-template-columns: calc(350px + (504 - 350) * ((100vw - 768px) / (1024 - 768))) calc(350px + (433 - 350) * ((100vw - 768px) / (1024 - 768)));
+    column-gap: calc(10px + (27 - 10) * ((100vw - 768px) / (1024 - 768)));
+  }  
+}
+
+@media (max-width: 768px) {
+  .merks {
+    margin: 80px 0;
+    gap: 20px;
+    grid-template-columns: minmax(min-content, 682px);
+    grid-template-rows: repeat(3, min-content);
+    grid-template-areas: "mobile-decor"
+                         "merks__image"
+                         "merks__figure";
+  }  
+}

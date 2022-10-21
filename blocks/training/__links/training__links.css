@@ -1,0 +1,16 @@
+.training__links {
+  align-self: end;
+  grid-area: training__links;
+}
+
+@media screen and (max-width: 930px) {
+  .training__links {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .training__links {
+    padding-bottom: 60px;
+  }
+}

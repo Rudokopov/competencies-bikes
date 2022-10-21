@@ -1,0 +1,10 @@
+.merks__image {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .merks__image {
+    margin-bottom: 20px;
+    grid-area: merks__image;
+  }  
+}

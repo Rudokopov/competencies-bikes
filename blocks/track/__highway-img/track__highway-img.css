@@ -1,0 +1,11 @@
+.track__highway-img {
+  width: 100%;
+  grid-area: track__highway-img;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .track__highway-img {
+    margin: 0;
+  }  
+}

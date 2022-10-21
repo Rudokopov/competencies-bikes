@@ -1,0 +1,20 @@
+.bicycle__card-image {
+  margin: 0;
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .bicycle__card-image {
+    padding: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bicycle__card-image {
+    max-width: 80vw;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,12 @@
+.highway__image {
+  width: 100%;
+  align-self: flex-end;
+  grid-area: highway__image;
+}
+
+@media (max-width: 768px) {
+  .highway__image {
+    width: calc(254px + (610 - 254) * ((100vw - 320px) / (768 - 320)));
+    justify-self: end;
+  }  
+}

@@ -1,0 +1,15 @@
+.highway__link-decor {
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  width: 132px;
+  height: 2px;
+  background-color: #D7D4D4;
+}
+
+@media (max-width: 943px) {
+  .highway__link-decor {
+    margin-left: calc(15px + (30 - 15) * ((100vw - 768px) / (943 - 768)));
+    width: calc(61px + (132 - 61) * ((100vw - 768px) / (943 - 768)));
+  }  
+}

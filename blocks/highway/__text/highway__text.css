@@ -1,0 +1,41 @@
+.highway__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #222222;
+  margin: 0 0 50px;
+  grid-area: highway__text;
+}
+
+@media (max-width: 1200px) {
+  .highway__text {
+    font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (1200 - 320)));
+    line-height: calc(18px + (28 - 18) * ((100vw - 320px) / (1200 - 320)));
+  }  
+}
+
+@media (max-width: 1080px) {
+  .highway__text {
+    margin-left: calc(30px + (0 - 30) * ((100vw - 1050px) / (1080 - 1050)));
+  }  
+}
+
+@media (max-width: 1050px) {
+  .highway__text {
+    margin-left: 30px;
+  }  
+}
+
+@media (max-width: 1024px) {
+  .highway__text {
+    margin-bottom: calc(35px + (50 - 35) * ((100vw - 768px) / (1024 - 768)));
+    max-width: calc(270px + (395 - 270) * ((100vw - 768px) / (1024 - 768)));
+  }  
+}
+
+@media (max-width: 768px) {
+  .highway__text {
+    margin: 0;
+    max-width: 100%;
+  }  
+}

@@ -1,0 +1,18 @@
+.bicycle__nav-mobile {
+  display: none;
+  margin: 0;
+  padding: 8px 0 8px 12px;
+  max-width: 114px;
+  border: 1px solid #e3e3e3;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  color: #151515;
+}
+
+@media screen and (max-width: 699px) {
+  .bicycle__nav-mobile {
+    margin-bottom: 20px;
+    display: block;
+  }
+}

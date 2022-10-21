@@ -1,0 +1,17 @@
+.merks__cite-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #222222;
+  opacity: 0.7;
+  margin: 0;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .merks__cite-link {
+    font-size: calc(10px + (16 - 10) * ((100vw - 320px) / (1200 - 320)));
+    line-height: calc(16px + (28 - 16) * ((100vw - 320px) / (1200 - 320)));
+  }  
+}

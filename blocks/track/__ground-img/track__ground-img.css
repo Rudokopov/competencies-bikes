@@ -1,0 +1,10 @@
+.track__ground-img {
+  width: 100%;
+  grid-area: track__ground-img;
+}
+
+@media (max-width: 768px) {
+  .track__ground-img {
+    display: none;
+  }  
+}

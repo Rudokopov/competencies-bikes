@@ -1,0 +1,9 @@
+.training__title {
+  grid-area: training__title;
+}
+
+@media screen and (max-width: 930px) {
+  .training__title {
+    margin-bottom: 40px;
+  }
+}

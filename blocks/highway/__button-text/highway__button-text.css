@@ -1,0 +1,14 @@
+.highway__button-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .highway__button-text {
+    font-size: 13px;
+    line-height: 146%;
+  }  
+}

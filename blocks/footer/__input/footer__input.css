@@ -1,0 +1,23 @@
+.footer__input {
+  min-width: 360px;
+  padding: 11px 0 11px 20px;
+  margin-bottom: 100px;
+  border: 1px solid #c7c7c7;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .footer__input {
+    min-width: 284px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 27.98px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footer__input {
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,10 @@
+.training__image {
+  margin: 0;
+  grid-area: training__image;
+}
+
+@media screen and (max-width: 1024px) {
+  .training__image {
+    width: 100%;
+  }
+}

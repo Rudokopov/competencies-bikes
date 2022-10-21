@@ -1,0 +1,11 @@
+.merks__figcaption {
+  align-self: flex-end;
+  display: grid;
+  gap: 6px;
+}
+
+@media (max-width: 768px) {
+  .merks__figcaption {
+    gap: 4px;
+  }  
+}

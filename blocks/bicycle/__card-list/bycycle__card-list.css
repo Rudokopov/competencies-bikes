@@ -1,0 +1,11 @@
+.bicycle__card-list {
+  display: none;
+  color: #cacaca;
+}
+
+@media screen and (max-width: 550px) {
+  .bicycle__card-list {
+    display: flex;
+    justify-content: center;
+  }
+}

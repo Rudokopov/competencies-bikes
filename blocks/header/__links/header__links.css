@@ -1,0 +1,17 @@
+.header__links {
+  display: flex;
+  gap: 34px;
+  justify-content: flex-end;
+  margin: 0 8.333333% 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 480px) {
+  .header__links {
+    flex-direction: column;
+    gap: 4px;
+    margin-right: 18px;
+    align-items: flex-end;
+  }  
+}

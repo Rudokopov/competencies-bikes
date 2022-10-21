@@ -1,0 +1,15 @@
+.bicycle__card-description {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 550px) {
+  .bicycle__card-description {
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 16px;
+    left: 27%;
+  }
+}

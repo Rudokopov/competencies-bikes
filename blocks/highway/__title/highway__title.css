@@ -1,0 +1,49 @@
+.highway__title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 109%;
+  color: #151515;
+  letter-spacing: -0.5px;
+  margin: 80px 0 50px;
+  grid-area: highway__title;
+}
+
+@media (max-width: 1200px) {
+  .highway__title {
+    font-size: calc(32px + (55 - 32) * ((100vw - 320px) / (1200 - 320)));
+    line-height: calc(40px + (60 - 40) * ((100vw - 320px) / (1200 - 320)));
+  }  
+}
+
+@media (max-width: 1080px) {
+  .highway__title {
+    margin-left: calc(30px + (0 - 30) * ((100vw - 1050px) / (1080 - 1050)));
+  }  
+}
+
+@media (max-width: 1050px) {
+  .highway__title {
+    margin-left: 30px;
+  }  
+}
+
+@media (max-width: 1024px) {
+  .highway__title {
+    margin-top: calc(15px + (80 - 15) * ((100vw - 768px) / (1024 - 768)));
+    margin-bottom: calc(35px + (50 - 35) * ((100vw - 768px) / (1024 - 768)));
+    max-width: calc(270px + (395 - 270) * ((100vw - 768px) / (1024 - 768)));
+  }  
+}
+
+@media (max-width: 768px) {
+  .highway__title {
+    margin: 40px 0 0;
+    max-width: calc(284px + (270 - 284) * ((100vw - 320px) / (768 - 320)));
+  }  
+}
+
+@media (max-width: 480px) {
+  .highway__title {
+    margin-top: 10px;
+  }  
+}

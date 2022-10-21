@@ -1,0 +1,14 @@
+.bicycle__cards {
+  object-fit: contain;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(auto-fill, 380px);
+  grid-area: bicycle__cards;
+}
+
+@media screen and (max-width: 480px) {
+  .bicycle__cards {
+    justify-content: center;
+  }
+}

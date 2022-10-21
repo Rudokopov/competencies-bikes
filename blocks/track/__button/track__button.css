@@ -1,0 +1,18 @@
+.track__button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  background: #ebebeb;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .track__button {
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+  }
+}

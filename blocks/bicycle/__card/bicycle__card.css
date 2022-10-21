@@ -1,0 +1,12 @@
+.bicycle__card {
+  margin: 0 auto;
+  object-fit: contain;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.bicycle__card:hover {
+  opacity: 0.8;
+}

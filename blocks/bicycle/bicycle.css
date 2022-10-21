@@ -1,0 +1,32 @@
+.bicycle {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 60px 120px 0 120px;
+  display: grid;
+  grid-row-gap: 120px;
+  grid-template-columns: min-content;
+  grid-template-areas:
+    "bicycle__title . bicycle__nav"
+    "bicycle__cards bicycle__cards bicycle__cards";
+}
+
+@media screen and (max-width: 930px) {
+  .bicycle {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bicycle {
+    border-top: 1px solid #e3e3e3;
+    padding: 0 0 80px 0;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .bicycle {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}

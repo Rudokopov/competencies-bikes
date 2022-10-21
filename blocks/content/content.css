@@ -1,0 +1,10 @@
+.content {
+  max-width: 1440px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    max-width: calc(284px + (682 - 284) * ((100vw - 320px) / (768 - 320)));
+    margin: 0 auto;
+  }
+}

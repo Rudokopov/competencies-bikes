@@ -1,0 +1,45 @@
+.track {
+  display: grid;
+  grid-template-columns: calc(555px + (650 - 555) * ((100vw - 1200px) / (1440 - 1200))) calc(535px + (630 - 535) * ((100vw - 1200px) / (1440 - 1200)));
+  margin-bottom: 60px;
+  justify-content: end;
+  column-gap: calc(29px + (40 - 29) * ((100vw - 1200px) / (1440 - 1200)));
+  grid-template-areas: "track__title ."
+                       "track__text ."
+                       "track__highway-img track__ground-img"
+                       "track__buttons .";
+}
+
+@media (min-width: 1440px) {
+  .track {
+    column-gap: 40px;
+    grid-template-columns: 650px 630px;
+  }  
+}
+
+@media (max-width: 1200px) {
+  .track {
+    grid-template-columns: calc(490px + (555 - 490) * ((100vw - 1024px) / (1200 - 1024))) calc(475px + (535 - 475) * ((100vw - 1024px) / (1200 - 1024)));
+    column-gap: 29px;
+  }  
+}
+
+@media (max-width: 1024px) {
+  .track {
+    grid-template-columns: calc(370px + (490 - 370) * ((100vw - 768px) / (1024 - 768))) calc(358px + (475 - 358) * ((100vw - 768px) / (1024 - 768)));
+    column-gap: calc(10px + (29 - 10) * ((100vw - 768px) / (1024 - 768)));
+  }  
+}
+
+@media (max-width: 768px) {
+  .track {
+    margin-bottom: 80px;
+    row-gap: 40px;
+    grid-template-columns: minmax(min-content, 682px);
+    grid-template-rows: repeat(4, min-content);
+    grid-template-areas: "mobile-decor mobile-decor"
+                         "track__title track__buttons"
+                         "track__highway-img track__highway-img"
+                         "track__text track__text";
+  }  
+}

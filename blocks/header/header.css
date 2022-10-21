@@ -1,0 +1,12 @@
+.header {
+  position: sticky;
+  top: 0px;
+  background-color: #F4F4F4;
+  z-index: 1;
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 28px 0 30px;
+  }  
+}

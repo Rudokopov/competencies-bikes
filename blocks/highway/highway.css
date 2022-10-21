@@ -1,0 +1,57 @@
+.highway {
+  display: grid;
+  grid-template-columns: calc(410px + (460 - 410) * ((100vw - 1200px) / (1440 - 1200))) 610px;
+  grid-template-rows: repeat(2, max-content) min-content 1fr;
+  grid-template-areas: "highway__title highway__image"
+                       "highway__text highway__image"
+                       "highway__button highway__image"
+                       "highway__links highway__image";
+  justify-content: flex-end;
+  column-gap: calc(90px + (250 - 90) * ((100vw - 1200px) / (1440 - 1200)));
+}
+
+@media (min-width: 1440px) {
+  .highway {
+    column-gap: 250px;
+    grid-template-columns: 460px 610px;
+  }  
+}
+
+@media (min-width: 1024px) {
+  .highway {
+    min-height: 856px;
+  }  
+}
+
+@media (max-width: 1200px) {
+  .highway {
+    grid-template-columns: minmax(min-content, 410px) minmax(min-content, 610px);
+    min-height: calc(836px + (856 - 836) * ((100vw - 1024px) / (1200 - 1024)));
+    column-gap: calc(30px + (90 - 30) * ((100vw - 1080px) / (1200 - 1080)));
+  }  
+}
+
+@media (max-width: 1080px) {
+  .highway {
+    column-gap: 30px;
+  }  
+}
+
+@media (max-width: 1024px) {
+  .highway {
+    grid-template-columns: max-content minmax(min-content, 610px);
+    min-height: calc(492px + (836 - 492) * ((100vw - 768px) / (1024 - 768)));
+  }  
+}
+
+@media (max-width: 768px) {
+  .highway {
+    row-gap: 40px;
+    grid-template-columns: minmax(min-content, 682px);
+    grid-template-rows: repeat(4, min-content);
+    grid-template-areas: "highway__title"
+                         "highway__image"
+                         "highway__text"
+                         "highway__button";
+  }  
+}

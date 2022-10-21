@@ -1,0 +1,25 @@
+.training__description {
+  margin: 0;
+  padding: 0;
+  max-width: 460px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.7;
+  grid-area: training__description;
+}
+
+@media screen and (max-width: 930px) {
+  .training__description {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .training__description {
+    max-width: 350px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

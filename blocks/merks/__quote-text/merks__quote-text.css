@@ -1,0 +1,21 @@
+.merks__quote-text {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+  color: #151515;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .merks__quote-text {
+    font-size: calc(23px + (34 - 23) * ((100vw - 320px) / (1200 - 320)));
+    line-height: calc(29px + (44 - 29) * ((100vw - 320px) / (1200 - 320)));
+  }  
+}
+
+@media (max-width: 768px) {
+  .merks__quote-text {
+    margin-bottom: 40px;
+  }  
+}

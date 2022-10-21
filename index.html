@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Document</title>
+  </head>
+  <body class="root">
+    <div class="page">
+      <header class="header">
+        <nav class="header__navigation">
+          <ul class="header__links">
+            <li class="header__text">
+              <a href="#pavement" class="header__link link"
+                >Покрытия и градиенты</a
+              >
+              <span class="header__menu"></span>
+            </li>
+            <li class="header__text">
+              <a href="#bicycle" class="header__link link">Велосипеды</a>
+              <span class="header__menu"></span>
+            </li>
+            <li class="header__text">
+              <a href="#training" class="header__link link">Тренировки</a>
+              <span class="header__menu"></span>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="content">
+        <section class="highway">
+          <h1 class="highway__title">Шоссе, ТТ и Грэвел</h1>
+          <p class="highway__text">
+            Триатлонные старты, горные серпантины или грейвел заезды
+            по&nbsp;живописным маршрутам&nbsp;— нужно только определиться
+            с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.
+          </p>
+          <button class="highway__button">
+            <span class="highway__button-text">Подробнее</span>
+          </button>
+          <div class="highway__links">
+            <a href="#" class="highway__link link"
+              >Cannondale Systemsix<span class="highway__link-decor"></span
+            ></a>
+          </div>
+          <img
+            src="./images/highway__image.jpg"
+            alt="Лес"
+            class="highway__image"
+          />
+        </section>
+        <section class="merks">
+          <span class="mobile-decor"></span>
+          <img
+            src="./images/merks__image.jpg"
+            alt="Пейзаж"
+            class="merks__image"
+          />
+          <figure class="merks__figure">
+            <blockquote class="merks__quote">
+              <p class="merks__quote-text">
+                «Катайся много или мало, долго или коротко, как хочешь - но
+                катайся»
+              </p>
+            </blockquote>
+            <figcaption class="merks__figcaption">
+              <p class="merks__quote-author">Эдди Меркс</p>
+              <cite>
+                <a
+                  class="merks__cite-link link"
+                  href="https://en.wikipedia.org/wiki/Eddy_Merckx"
+                  target="_blank"
+                  >Велогонщик</a
+                >
+              </cite>
+            </figcaption>
+          </figure>
+        </section>
+        <section class="track" id="pavement">
+          <span class="mobile-decor"></span>
+          <h2 class="track__title">Шоссе</h2>
+          <p class="track__text">
+            На шоссейном велосипеде можно ездить по асфальту на разных
+            градиентах: будь то горы или равнины. Гонки проходят в командном
+            пелотоне, но тренироваться можно и самостоятельно.
+          </p>
+          <img
+            src="./images/track__highway.jpg"
+            alt="Шоссе"
+            class="track__highway-img"
+          />
+          <img
+            src="./images/track__ground.jpg"
+            alt="Грунт"
+            class="track__ground-img"
+          />
+          <nav class="track__buttons">
+            <button class="track__button track__button_left"></button>
+            <button class="track__button track__button_right"></button>
+          </nav>
+        </section>
+        <!-- section bicycle -->
+        <section class="bicycle" id="bicycle">
+          <h2 class="bicycle__title title">Велосипеды</h2>
+          <ul class="bicycle__nav">
+            <li class="bicycle__nav-item">
+              <a href="#" class="bicycle__link bicycle__link_active link"
+                >Шоссе</a
+              >
+            </li>
+            <li class="bicycle__nav-item">
+              <a href="#" class="bicycle__link link">Грэвел</a>
+            </li>
+            <li class="bicycle__nav-item">
+              <a href="#" class="bicycle__link link">TT</a>
+            </li>
+          </ul>
+          <select class="bicycle__nav-mobile" name="bicycle__nav-mobile">
+            <option value="Road">Шоссе</option>
+            <option value="Grevel">Грэвел</option>
+            <option value="TT">ТТ</option>
+          </select>
+          <div class="bicycle__cards">
+            <div class="bicycle__card">
+              <img
+                src="./images/bicycles/Bike_1.jpg"
+                alt="Велосипед Cervelo"
+                class="bicycle__card-image"
+              />
+              <p class="bicycle__card-description">Cervelo Caledonia-5</p>
+              <div class="bicycle__card-list">
+                <span class="bicycle__card-list bicycle__card-list_active"
+                  >&bull;</span
+                ><span class="bicycle__card-list">&bull;</span
+                ><span class="bicycle__card-list">&bull;</span>
+              </div>
+            </div>
+            <div class="bicycle__card bicycle__card_status_disabled">
+              <img
+                src="./images/bicycles/Bike_2.jpg"
+                alt="Велосипед Cannondale"
+                class="bicycle__card-image"
+              />
+              <p class="bicycle__card-description">
+                Cannondale Systemsix Himod
+              </p>
+            </div>
+            <div class="bicycle__card bicycle__card_status_disabled">
+              <img
+                src="./images/bicycles/Bike_3.jpg"
+                alt="Велосипед Trek"
+                class="bicycle__card-image"
+              />
+              <p class="bicycle__card-description">Trek Domane SL-7</p>
+            </div>
+          </div>
+        </section>
+        <!-- section training -->
+        <section class="training" id="training">
+          <h2 class="training__title title">Тренировки</h2>
+          <img
+            src="./images/training.jpg"
+            alt="Тренировочная дорога"
+            class="training__image"
+          />
+          <p class="training__description">
+            Чтобы найти маршрут для тренировки можно воспользоваться сервисом
+            Komoot, а записать эти тренировки поможет приложение Strava, а также
+            это приложение позволит построить тренировочный план.
+          </p>
+          <div class="training__links">
+            <a href="#" class="training__link link">Strava</a>
+            <a href="#" class="training__link link">Komoot</a>
+          </div>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer class="footer">
+        <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+        <input class="footer__input" type="email" placeholder="Ваш e-mail" />
+        <p class="footer__copyright">© Боимся но делаем 2022</p>
+      </footer>
+    </div>
+  </body>
+</html>

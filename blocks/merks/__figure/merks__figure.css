@@ -1,0 +1,11 @@
+.merks__figure {
+  margin: 0;
+  display: grid;
+
+}
+
+@media (max-width: 768px) {
+  .merks__figure {
+    grid-area: merks__figure;
+  }  
+}

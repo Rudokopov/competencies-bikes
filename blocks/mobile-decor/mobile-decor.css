@@ -1,0 +1,12 @@
+.mobile-decor {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-decor {
+    display: inline-block;
+    width: calc(282px + (680 - 282) * ((100vw - 320px) / (768 - 320)));
+    border: 1px solid #E3E3E3;
+    grid-area: mobile-decor;
+  }  
+}

@@ -1,0 +1,14 @@
+.merks__quote-author {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #151515;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .merks__quote-author {
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1200 - 320)));
+    line-height: calc(22px + (32 - 22) * ((100vw - 320px) / (1200 - 320)));
+  }  
+}

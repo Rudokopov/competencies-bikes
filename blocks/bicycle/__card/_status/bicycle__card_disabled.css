@@ -1,0 +1,5 @@
+@media screen and (max-width: 699px) {
+  .bicycle__card_status_disabled {
+    display: none;
+  }
+}

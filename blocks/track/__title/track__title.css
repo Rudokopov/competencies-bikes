@@ -1,0 +1,22 @@
+.track__title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 109%;
+  letter-spacing: -0.5px;
+  color: #151515;
+  grid-area: track__title;
+  margin: 60px 0 50px;
+}
+
+@media (max-width: 1200px) {
+  .track__title {
+    font-size: calc(32px + (55 - 32) * ((100vw - 320px) / (1200 - 320)));
+    line-height: calc(40px + (60 - 40) * ((100vw - 320px) / (1200 - 320)));
+  }  
+}
+
+@media (max-width: 768px) {
+  .track__title {
+    margin: 0;
+  }  
+}
