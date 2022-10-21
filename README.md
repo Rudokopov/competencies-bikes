@@ -1,4 +1,4 @@
-# [Проект "Competitions Bikes"]()
+# [Проект "Competitions Bikes"](https://rudokopov.github.io/competencies-bikes/)
 
 Проектная работа направленная на понимание как организовать процесс командной работы.
 
